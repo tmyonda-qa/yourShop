@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('hero_settings', function (Blueprint $table) {
             $table->id();
             $table->string('image_path')->nullable();
-            $table->string('title')->default('Елегантні шуби з натурального хутра');
+            $table->string('title')->default('Тут може бути ваш магазин');
             $table->text('subtitle')->nullable();
             $table->timestamps();
         });
